@@ -203,13 +203,13 @@ header .header__list .header__item .header__item--link.is-active::after {
 }
 
 .mv {
-  background: url(../img/mv.png) center center/cover;
+  background: url(mv.png) center center/cover;
   padding-top: 68px;
 }
 
 @media screen and (max-width: 767px) {
   .mv {
-    background: url(../img/mv.png) left 20% center/cover;
+    background: url(mv.png) left 20% center/cover;
   }
 }
 
@@ -350,7 +350,7 @@ header .header__list .header__item .header__item--link.is-active::after {
 .news__list .news__item .news__item--link::after {
   position: absolute;
   content: "";
-  background: url(../img/news-arrow.svg) center center/cover;
+  background: url(news-arrow.svg) center center/cover;
   width: 11px;
   height: 22px;
   top: 50%;
@@ -903,7 +903,7 @@ header .header__list .header__item .header__item--link.is-active::after {
 .qa {
   margin-top: 120px;
   padding: 60px 0 120px;
-  background: url(../img/qa-bg.png) top center/cover;
+  background: url(qa-bg.png) top center/cover;
   background-attachment: fixed;
 }
 
@@ -980,7 +980,7 @@ header .header__list .header__item .header__item--link.is-active::after {
 .qa .qa__list .qa__item .qa__header .qa__header--inline {
   position: absolute;
   content: "";
-  background: url(../img/plus.svg) no-repeat center center/cover;
+  background: url(plus.svg) no-repeat center center/cover;
   top: 50%;
   transform: translateY(-50%);
   right: 16px;
@@ -989,7 +989,7 @@ header .header__list .header__item .header__item--link.is-active::after {
 }
 
 .qa .qa__list .qa__item .qa__header .qa__header--inline.is-open {
-  background: url(../img/minus.svg) no-repeat center center/cover;
+  background: url(minus.svg) no-repeat center center/cover;
   height: 3px;
 }
 
@@ -1109,7 +1109,7 @@ header .header__list .header__item .header__item--link.is-active::after {
 .contact {
   padding: 60px 0;
   margin-top: 120px;
-  background: url(../img/contact-bg.png) center center/cover;
+  background: url(contact-bg.png) center center/cover;
 }
 
 @media screen and (max-width: 767px) {
@@ -1123,7 +1123,7 @@ header .header__list .header__item .header__item--link.is-active::after {
   padding: 60px 0;
   color: #ffffff;
   border-radius: 12px 12px 0 0;
-  background: url(../img/contact1.png) center center/cover;
+  background: url(contact1.png) center center/cover;
 }
 
 @media screen and (max-width: 767px) {
