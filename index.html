@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily_Trial</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
+        media="screen and (max-width: 767px)">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- original -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/practice.js"></script>
+</head>
+
+<body class="drawer drawer--right">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1 class="header__title">Sample Corp.</h1>
+                <nav class="drawer-nav">
+                    <ul class="drawer-menu header__list">
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#news">News</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#service">Service</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#results">Results</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#price">Price</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#comments">Comments</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#qa">FAQs</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="drawer-menu-item header__item--link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="drawer-toggle drawer-hamburger">
+                    <span class="sr-only">toggle navigation</span>
+                    <span class="drawer-hamburger-icon"></span>
+                </button>
+                <div class="drawer-overlay drawer-toggle"></div>
+            </div>
+        </header>
+
+        <div class="mv">
+            <div class="container">
+                <div class="mv__message wow fadeInUp">
+                    <h2 class="mv__title">詩が生れて、画が出来る。<br>とかくに人の世は住みにくい。</h2>
+                    <p class="mv__text">どこへ越しても住みにくいと悟った時、詩が生れて、<br class="is-sp">画が出来る。意地を通せば窮屈だ。</p>
+                    <a href="#" class="btn__orange">お問い合わせしてみる</a>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="container">
+                <section id="news" class="news wow fadeInUp">
+                    <h2 class="section__title">News</h2>
+                    <div class="news__list">
+                        <article class="news__item">
+                            <a href="#" class="news__item--link">
+                                <div class="news__item--header">
+                                    <p class="news__item--date">2019-02-01</p>
+                                    <p class="news__item--category">テキスト</p>
+                                </div>
+                                <div class="news__item--body">
+                                    <p class="news__item--text">ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news__item">
+                            <a href="#" class="news__item--link">
+                                <div class="news__item--header">
+                                    <p class="news__item--date">2019-02-01</p>
+                                    <p class="news__item--category">テキスト</p>
+                                </div>
+                                <div class="news__item--body">
+                                    <p class="news__item--text">ニュースニュースニュースニュースニュースニュースニュース</p>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news__item">
+                            <a href="#" class="news__item--link">
+                                <div class="news__item--header">
+                                    <p class="news__item--date">2019-02-01</p>
+                                    <p class="news__item--category">テキスト</p>
+                                </div>
+                                <div class="news__item--body">
+                                    <p class="news__item--text">ニュースニュースニュースニュースニュースニュースニュース</p>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                    <div class="news__footer">
+                        <a href="#" class="btn">MORE</a>
+                    </div>
+                </section>
+            </div>
+
+            <section id="service" class="service wow fadeInUp">
+                <h2 class="section__title">Service</h2>
+                <div class="small__container">
+                    <ul class="service__list">
+                        <li class="service__item">
+                            <div class="service__item--image">
+                                <img src="service1.svg">
+                            </div>
+                            <h3 class="service__item--title">WEB<br>DESIGN</h3>
+                            <p class="service__item--text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+                        </li>
+                        <li class="service__item">
+                            <div class="service__item--image">
+                                <img src="service2.svg">
+                            </div>
+                            <h3 class="service__item--title">WEB<br>CODING</h3>
+                            <p class="service__item--text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+                        </li>
+                        <li class="service__item">
+                            <div class="service__item--image">
+                                <img src="service3.svg">
+                            </div>
+                            <h3 class="service__item--title">CMS<br>CUSTOMIZE</h3>
+                            <p class="service__item--text">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="results" class="results wow fadeInUp">
+                <h2 class="section__title">Results</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide results__item">
+                            <a href="#" class="results__item--link">
+                                <div class="results__header">
+                                    <img src="slide1.png">
+                                </div>
+                                <div class="results__body">
+                                    <h3 class="results__title">とかくに人の世は住みにくい。</h3>
+                                    <p class="results__text">どこへ越しても住みにくいと悟った時、詩が生れて 、画が出来る。意地を通せば窮屈だ。</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="results__footer">
+                        <a href="#" class="btn">VIEW ALL</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="price" class="price wow fadeInUp">
+                <h2 class="section__title">Price</h2>
+                <div class="small__container">
+                    <table class="price__table">
+                        <tr>
+                            <th>row 1</th>
+                            <td>Price ¥10,000</td>
+                        </tr>
+                        <tr>
+                            <th>row 2</th>
+                            <td>Price ¥10,000</td>
+                        </tr>
+                        <tr>
+                            <th>row 3</th>
+                            <td>Price ¥10,000</td>
+                        </tr>
+                    </table>
+                    <p class="price__text">※ 上記料金はサンプルです。</p>
+                </div>
+            </section>
+
+            <div class="bg__wrapper">
+                <section id="comments" class="comments wow fadeInUp">
+                    <div class="container">
+                        <div class="comments__wrapper">
+                            <div class="comments__textContents">
+                                <h2 class="section__title">Comments</h2>
+                                <div class="comments__box">
+                                    <div class="comments__image">
+                                        <img src="comments1.png">
+                                    </div>
+                                    <p class="comments__text">
+                                        どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+                                    </p>
+                                </div>
+                                <div class="comments__box">
+                                    <div class="comments__image">
+                                        <img src="comments2.png">
+                                    </div>
+                                    <p class="comments__text">
+                                        どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="comments__picture">
+                                <img src="comments3.png">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="qa" class="qa">
+                    <h2 class="section__title wow fadeInUp">Q&A</h2>
+                    <div class="container">
+                        <ul class="qa__list wow fadeInUp">
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？<br>また、質問は質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                            <li class="qa__item">
+                                <div class="qa__header">
+                                    <p class="qa__header--text">質問質問質問？</p>
+                                    <span class="qa__header--inline"></span>
+                                </div>
+                                <div class="qa__body">
+                                    <p class="qa__body--text">回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="access" class="access wow fadeInUp">
+                    <div class="container">
+                        <div class="access__wrapper">
+                            <div class="access__textContents">
+                                <h2 class="section__title">Access</h2>
+                                <p class="access__text">〒106-6126<br>東京都港区六本木 6丁目 10-1<br>六本木ヒルズ森タワー</p>
+                            </div>
+                            <div class="access__iframe">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7539607329154!2d139.69997991494586!3d35.65843303882991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8427e1c0b1%3A0x78f6e23397061d6f!2z5riL6LC344K544Kv44Op44Oz44OW44Or44K544Kv44Ko44Ki!5e0!3m2!1sja!2sjp!4v1610146849255!5m2!1sja!2sjp"
+                                    width="726" height="520" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="access__footer">
+                                <a href="#" class="btn">Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section id="contact" class="contact">
+                <div class="small__container">
+                    <div class="contact__wrapper wow fadeInUp">
+                        <div class="contact__header">
+                            <h2 class="section__title">Contact Us</h2>
+                            <p class="contact__lead">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。</p>
+                        </div>
+                        <div class="contact__body">
+                            <form
+                                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc8dqR64oHpVkyYflkR4iIFCQgo6dRo544Fvt0jlrngoem8NQ/formResponse"
+                                id="js-form" class="contact__form">
+                                <dl class="contact__list">
+                                    <div class="contact__item">
+                                        <dt class="contact__title">お問い合わせ種別</dt>
+                                        <dd class="contact__input contact__input--select">
+                                            <select name="entry.660449762" class="contact__select">
+                                                <option value="選択してください">選択してください</option>
+                                                <option value="選択肢1">選択肢1</option>
+                                                <option value="選択肢2">選択肢2</option>
+                                                <option value="選択肢3">選択肢3</option>
+                                            </select>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item">
+                                        <dt class="contact__title">氏名<span class="contact__title--inline">必須</span></dt>
+                                        <dd class="contact__input">
+                                            <input type="text" name="entry.719855440" placeholder="氏名">
+                                            <span class="contact__focusLine"></span>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item">
+                                        <dt class="contact__title">フリガナ<span class="contact__title--inline">必須</span>
+                                        </dt>
+                                        <dd class="contact__input">
+                                            <input type="text" name="entry.226366122" placeholder="フリガナ">
+                                            <span class="contact__focusLine"></span>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item">
+                                        <dt class="contact__title">メールアドレス</dt>
+                                        <dd class="contact__input">
+                                            <input type="email" name="entry.1380664563" placeholder="sample@gmail.com">
+                                            <span class="contact__focusLine"></span>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item">
+                                        <dt class="contact__title">性別</dt>
+                                        <dd class="contact__input contact__input--radio">
+                                            <div class="contact__radio">
+                                                <input type="radio" name="entry.1257265589" id="radio-male"
+                                                    class="contact__radio--form" value="男性">
+                                                <label class="contact__radio--label" for="radio-male">男性</label>
+                                            </div>
+                                            <div class="contact__radio">
+                                                <input type="radio" name="entry.1257265589" id="radio-female"
+                                                    class="contact__radio--form" value="女性">
+                                                <label class="contact__radio--label" for="radio-female">女性</label>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item contact__item--message">
+                                        <dt class="contact__title">メッセージ</dt>
+                                        <dd class="contact__input">
+                                            <textarea name="entry.1148628126"></textarea>
+                                        </dd>
+                                    </div>
+                                    <div class="contact__item--privacy">
+                                        <input type="checkbox" name="entry.120957132" id="checkbox"
+                                            class="contact__checkbox" value="同意する">
+                                        <label for="checkbox" class="contact__checkbox--label">個人情報保護方針に同意する</label>
+                                    </div>
+                                    <button id="js-submit" type="submit" class="btn__orange" disabled>送信する</button>
+                                </dl>
+                            </form>
+                            <div id="js-success" class="contact__message">
+                                <p>送信完了しました。ありがとうございました。</p>
+                            </div>
+                            <div id="js-error" class="contact__message -error">
+                                <p>送信に失敗しました。ページを更新して再度送信してください。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="small__container">
+                <div class="footer__wrapper">
+                    <div class="footer__left">
+                        <ul class="footer__sns--list">
+                            <li class="footer__sns--item">
+                                <a href="#" class="footer__sns--link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer__sns--item">
+                                <a href="#" class="footer__sns--link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__item--link">サイトマップ</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item--link">個人情報保護方針</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__item--link">プライバシーポリシー</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__right">
+                        <h2 class="footer__title">Sample Corp.</h2>
+                        <p class="footer__copyright">© デイトラ Landing page Sample.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="to__top">
+            <a href="#">
+                <img src="totop.svg">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
